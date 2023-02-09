@@ -144,9 +144,7 @@ padding:30px 50px 0px 0px;
   width:65%;
   height: auto;
 }
-.section-head2{
 
-}
 .section-head2 h1{
   padding-top: 60px;
   color: hsl(210, 10%, 33%);
@@ -422,4 +420,44 @@ padding:30px 10px;
 .pre-card p{
   font-size: 17spx;
 }
+}
+@media screen and (max-width:395px){
+
+  .logo {
+    width: 100px;
+    
+  }
+  button {
+    padding: 15px 115px;
+    } 
+    .right-section{
+      padding:20px 10px;
+    }
+    .section-head1{
+      
+      padding: 40px;
+     
+    }
+    .pre-card{
+      padding: 15px;
+    }
+    .pre-card h3{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .bottom{
+      width: 90%;
+    }
+    .bottom h1{
+      padding: 0 20px;
+    }
+    .bottom p{
+      padding: 0 40px;
+    }
+    .footer-img{
+      padding: 10px;
+    }
+    .logo-footer{
+      width:15%;
+    }
 }
